@@ -8,8 +8,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-//@SuppressWarnings("serial")
-//@WebServlet("/sq")
+@SuppressWarnings("serial")
+@WebServlet("/sq")
 public class SqServlet extends HttpServlet 
 {
    public void doGet(HttpServletRequest req,HttpServletResponse res) throws IOException {
@@ -19,3 +19,4 @@ public class SqServlet extends HttpServlet
 	    out.println("Result is :"+j);
    }
 }
+
