@@ -9,8 +9,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-//@SuppressWarnings("serial")
-//@WebServlet("/add")
+@SuppressWarnings("serial")
+@WebServlet("/add")
 public class AddServlet extends HttpServlet
 {
 
@@ -26,3 +26,4 @@ public class AddServlet extends HttpServlet
     	
     }
 }
+
